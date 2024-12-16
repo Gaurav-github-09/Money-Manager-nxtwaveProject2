@@ -1,0 +1,190 @@
+/* Write your CSS here */
+
+.bgcont {
+  min-height: 100vh;
+  padding: 55px 75px 55px 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 55px;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .card1 {
+    justify-content: flex-start;
+  }
+}
+.Richard {
+  margin-bottom: 12px;
+  color: #475569;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.Welcome {
+  color: #475569;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: medium;
+}
+.MoneyManager {
+  color: #0b69ff;
+  font-weight: bolder;
+}
+
+.unordered {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.last-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 100%;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.formCont {
+  flex-wrap: wrap;
+  overflow: scroll;
+  width: 40%;
+  height: 65vh;
+  border: #cbd5e1 solid 3px;
+  padding: 55px;
+  margin: 0px 20px 0px 0px;
+  border-radius: 15px;
+}
+.historyCont {
+  width: 56%;
+  height: 65vh;
+  overflow: scroll;
+  border-radius: 15px;
+  border: #cbd5e1 solid 3px;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 5;
+}
+
+.button {
+  padding: 15px 20px 15px 20px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  margin-top: 12px;
+  margin-left: 0px;
+  font-size: small;
+  color: #ffffff;
+}
+.historyStyles {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hisLiEl {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: #cbd5e1 2px solid;
+  padding: 15px 20px 15px 20px;
+  margin: -1px;
+  border-radius: 2px;
+}
+
+.histTitle {
+  width: 28%;
+  color: #1e293b;
+  font-size: small;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.histName {
+  color: #334155;
+  margin-bottom: 30px;
+}
+
+.forLabel {
+  font-weight: bold;
+  color: #7e858e;
+  padding-left: 5px;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+  border: #7e858e 1.5px solid;
+}
+select {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+  color: #334155;
+  border: #7e858e 1.5px solid;
+}
+.trans {
+  margin-bottom: 30px;
+  font-family: roboto;
+  color: #334155;
+}
+
+@media (max-width: 768px) {
+  .last-cont {
+    flex-direction: column;
+  }
+  .formCont {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+  .historyCont {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .unordered {
+    flex-direction: row;
+    margin-top: 25px;
+    width: 100%;
+  }
+}

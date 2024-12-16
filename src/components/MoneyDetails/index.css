@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+img {
+  min-height: 100%;
+  width: 30%;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.amcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+  width: 50%;
+  align-items: flex-start;
+}
+
+.listel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  padding: 55px 30px 55px 30px;
+  flex-wrap: wrap;
+  margin: 0px 25px 0px 0px;
+  border-radius: 25px;
+}
+
+.listBal {
+  background-color: #ecfccb;
+  border: #84cc16 solid 2.5px;
+}
+
+.listEXP {
+  background-color: #ede9fe;
+  border: #7c3aed solid 2.5px;
+  margin: 0px 0px 0px 0px;
+}
+.listINC {
+  background-color: #cffafe;
+  border: #06b6d4 solid 2.5px;
+}
+
+.name {
+  font-size: small;
+  padding-bottom: 15px;
+  color: #475569;
+  font-weight: bolder;
+}
+
+.ampara {
+  color: #475569;
+  font-size: larger;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .listel {
+    width: 100%;
+    margin-top: 28px;
+    justify-content: flex-start;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+  }
+  .name {
+    font-size: large;
+  }
+}
