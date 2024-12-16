@@ -2,6 +2,8 @@ I've built a **Money Manager** app
 
 project link - https://gk04MonMan.ccbp.tech
 
+Tools- React.js, CSS, Flexbox
+
 ---------------------------------------------------------------------------------------------------------
 
 ### More details about the project:
