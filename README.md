@@ -27,7 +27,7 @@ The app has the following functionalities
 - Initially, the value of the `titleInput` is empty
 - Initially, the value of the `amountInput` is empty
 - Initially, the first option in the list is selected
-- When a transaction is added, by providing the values in the `titleInput`, `amountInput` and `optionId` and **Add** button is clicked,
+- When a transaction is added, by providing the values in the `titleInput`, `amountInput` and **Add** button is clicked,
 
   - A new transaction is added to the transaction history list
   - `totalBalance`, `totalIncome` and `totalExpenses` will be updated accordingly
@@ -36,7 +36,7 @@ The app has the following functionalities
     totalBalance = totalIncome - totalExpenses
     ```
 
-  - After updating, the values in the `titleInput`,`amountInput` and `optionId` will be updated to their initial values
+  - After updating, the values in the `titleInput`,`amountInput` will be updated to their initial values
 
 - When the delete button in the transaction history is clicked,
   - The respective transaction is deleted from the transaction history list
