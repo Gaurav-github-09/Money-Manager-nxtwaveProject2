@@ -1,4 +1,4 @@
-In this project, i've built a **Money Manager** app 
+I've built a **Money Manager** app 
 
 project link - https://gk04MonMan.ccbp.tech
 
