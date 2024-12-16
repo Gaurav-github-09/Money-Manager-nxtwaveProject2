@@ -14,9 +14,7 @@ project link - https://gk04MonMan.ccbp.tech
 
 ### Completion Instructions
 
-<details>
-<summary>Functionality of the app</summary>
-<br/>
+
 
 The app has the following functionalities
 
@@ -49,7 +47,7 @@ The app has the following functionalities
   - The respective transaction is deleted from the transaction history list
   - `totalBalance`, `totalIncome` and `totalExpenses` will be updated accordingly
 
-</details>
+
 
 
 
